@@ -1,0 +1,18 @@
+
+import(methods)
+import(mvtnorm)
+## importFrom(plyr, ldply)
+## importFrom(moments, kurtosis)
+importFrom(MASS, kde2d)
+importFrom(graphics, persp, abline, plot)
+importFrom(graphics, contour)
+importFrom(stats, mahalanobis, cor, cov, pchisq, plnorm, pnorm, qchisq, qnorm, 
+           shapiro.test, var)
+## importFrom(psych, describe)
+
+export(S2.test, AD.test, CM.test,
+       DH.test, R.test, HZ.test)
+
+
+exportClasses(S2, ad, cm, dh, r, hz)
+
